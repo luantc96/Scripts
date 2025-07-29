@@ -21,7 +21,7 @@ for DNS in "${DNS_SERVERS[@]}"; do
     for ((i=1; i<=NUM_QUERIES; i++)); do
         RESULT=$(dig +timeout=2 +tries=1 +stats @"$DNS" "$DOMAIN")
         QUERY_TIME=$(echo "$RESULT" | grep "Query time" | awk '{print $4}')
-        STATUS="OK"
+        STATUS="✅"
         if [[ -z "$QUERY_TIME" ]]; then
             STATUS="TIMEOUT"
             QUERY_TIME="-"
