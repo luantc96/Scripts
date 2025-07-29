@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WEBHOOK_URL="https://discord.com/api/webhooks/1389136531381555220/8m5Sy8mjRgZAapUPcQvY1iCyZK2VP_ypS6b_-kh0wljDinRszhwwdUP2l7rQ7EihysHB"
+WEBHOOK_URL="https://Your-webhook-URL-here"
 TARGET="8.8.8.8"
 THRESHOLD_MS=50
 ALERT_THRESHOLD=3
