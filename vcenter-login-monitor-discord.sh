@@ -4,7 +4,7 @@
 
 LOG_FILE="/var/log/vmware/sso/websso.log"
 STATE_FILE="/tmp/vcenter-last-login-line.txt"
-WEBHOOK_URL="https://discord.com/api/webhooks/1430096893869817919/-0Ztx9UlyRed38EUltgEPYMIIUhLJjCWXNKgbEJuY5Iq6R0BI8w0FWc92ZdGsb5ro6ti"
+WEBHOOK_URL="https://discord.com/api/webhooks/"
 HOSTNAME=$(hostname -f)
 
 # Get newest Login
